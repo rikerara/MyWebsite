@@ -1,0 +1,381 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8f5;
+    color: #333333;
+}
+
+nav {
+    background-color: #245c45;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+h1 {
+    color: #245c45;
+}
+
+p {
+    font-size: 18px;
+}
+
+.card {
+    background-color: #fff8e7;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+
+.destination-image {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
+.destination-card {
+    border: 1px solid #cccccc;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #245c45;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.home-image {
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+
+h1{
+    text-align: center;
+    color: #236447;
+	margin-bottom: 50px;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+	background-color: #2f5d50
+	color: white;
+	text-align: center;
+	padding: 20px
+	margin-top: 40px;
+}
+
+footer p {
+	margin: 5px;
+}
+
+footer {
+	background-color: #2f5d50;
+	color: white;
+	text-align: center;
+	padding: 20px;
+    margin-top: 40px
+}
+
+footer p {
+	margin: 5px;
+}
+
+.visitors-tips {
+    background-color: #fff8dc;
+    padding: 20px 30px;
+    margin: 30px;
+    border-radius: 10px;
+    border-left: 5px solid #d4a017;
+}
+
+.visitors-tips h2 {
+    margin-top: 0;
+    color: #245c45;
+}
+
+table tr:hover td {
+    background-color: #d9ead3;
+    transition: background-color 0.3s ease;
+}
+
+.activity-images {
+    margin-bottom: 40px;
+}
+
+.activity-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0 30px;
+}
+
+.activity-card {
+    width: 115px;
+    min-height: 110px;
+    padding: 15px;
+    background-color: #eef8e9;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 34px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.activity-card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #245c45;
+}
+
+/* Different colours for Popular Activities */
+
+.activity-card:nth-child(1) {
+    background-color: #e7f6d9;
+}
+
+.activity-card:nth-child(2) {
+    background-color: #eadcff;
+}
+
+.activity-card:nth-child(3) {
+    background-color: #fff0b8;
+}
+
+.activity-card:nth-child(4) {
+    background-color: #d9eaff;
+}
+
+.activity-card:nth-child(5) {
+    background-color: #ffdce5;
+}
+
+.activity-card:nth-child(6) {
+    background-color: #ddf5cf;
+}
+
+.activity-card:nth-child(7) {
+    background-color: #ffe1bd;
+}
+
+.activity-card:nth-child(8) {
+    background-color: #d7f4f5;
+}
+
+/* Activity Guide table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #176b45;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+td {
+    padding: 13px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* alternating rows */
+tr:nth-child(even) {
+    background-color: #eef8f1;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* colour when mouse touches a row */
+tr:hover {
+    background-color: #fff2bd;
+    transition: 0.3s;
+}
+
+.visitors-tips {
+    background: linear-gradient(135deg, #fff8dc, #fff3c4);
+    border-left: 6px solid #e5a800;
+    padding: 22px 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.visitors-tips h2 {
+    color: #176b45;
+    margin-top: 0;
+}
+
+.visitors-tips li {
+    margin: 8px 0;
+    font-size: 17px;
+}
+
+.activity-images img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-images img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.20);
+}
+
+/* Colourful Destination Cards */
+
+.destination-card:nth-of-type(1) {
+    background-color: #e3f2fd;   /* soft blue */
+}
+
+.destination-card:nth-of-type(2) {
+    background-color: #fff3cd;   /* soft yellow */
+}
+
+.destination-card:nth-of-type(3) {
+    background-color: #e8f5e9;   /* soft green */
+}
+
+.destination-card:nth-of-type(4) {
+    background-color: #fce4ec;   /* soft pink */
+}
+
+.destination-card:nth-of-type(5) {
+    background-color: #ede7f6;   /* soft purple */
+}
+
+.destination-card {
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.destination-card {
+    background-color: #e8f5e9;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+/* Different colours for destination cards */
+
+.destination-card.anglesey {
+    background-color: #ffe5d4; !important;
+}
+
+.destination-card.beaumaris {
+    background-color: #fff1c7;
+}
+
+.destination-card.betws {
+    background-color: #e3f5d8;
+}
+
+.destination-card.caernarfon {
+    background-color: #ffe0e8;
+}
+
+.destination-card.snowdonia {
+    background-color: #eee2ff;
+}
+
+.destination-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.destination-card h2,
+.destination-card p {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destination-card h2 {
+    text-align: center;
+    color: #245c45;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.destination-card p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.destination-text {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.destination-text h2 {
+    text-align: center;
+    color: #245c45;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.destination-text p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.destination-card {
+    border-bottom: 2px solid #e0b84f !important;
+}
