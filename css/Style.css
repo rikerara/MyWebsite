@@ -405,3 +405,14 @@ tr:hover {
     text-align: center;
     margin-top: 8px;
 }
+
+/* Centre ALL destination figures */
+.destination-card figure {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.destination-card figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
