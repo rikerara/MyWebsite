@@ -117,3 +117,18 @@ footer p {
 	margin: 5px;
 }
 
+/* Centre destination figures and captions */
+figure {
+    text-align: center;
+    margin: 30px auto;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
