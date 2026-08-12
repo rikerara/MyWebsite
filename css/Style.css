@@ -379,3 +379,29 @@ tr:hover {
 .destination-card {
     border-bottom: 2px solid #e0b84f !important;
 }
+
+/* Centre destination images and captions */
+.images-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-gallery figure {
+    width: 500px;
+    max-width: 90%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.images-gallery figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.images-gallery figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
